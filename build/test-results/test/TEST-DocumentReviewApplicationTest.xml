@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DocumentReviewApplicationTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-09-02T08:08:41" hostname="C-0004-HHOLLAND" time="0.45">
+  <properties/>
+  <testcase name="test GET without param" classname="DocumentReviewApplicationTest" time="0.45">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;Hello, [yanay]!&gt; but was:&lt;Hello, [Stranger]!&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;Hello, [yanay]!&gt; but was:&lt;Hello, [Stranger]!&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals$default(Assertions.kt:56)
+	at kotlin.test.AssertionsKt.assertEquals$default(Unknown Source)
+	at DocumentReviewApplicationTest.test GET without param(DocumentReviewApplicationTest.kt:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+  </testcase>
+  <system-out><![CDATA[INFO  [2021-09-02 08:08:40,488] org.eclipse.jetty.util.log: Logging initialized @1430ms to org.eclipse.jetty.util.log.Slf4jLog
+INFO  [2021-09-02 08:08:40,555] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2021-09-02 08:08:40,556] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2021-09-02 08:08:40,604] io.dropwizard.server.ServerFactory: Starting document-review-service
+INFO  [2021-09-02 08:08:40,688] org.eclipse.jetty.setuid.SetUIDListener: Opened application@1886f375{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2021-09-02 08:08:40,689] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@68ffb374{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2021-09-02 08:08:40,691] org.eclipse.jetty.server.Server: jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 11.0.8+10
+INFO  [2021-09-02 08:08:41,113] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /hello-world (resources.HWResource)
+    POST    /hello-world (resources.HWResource)
+
+INFO  [2021-09-02 08:08:41,114] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@6febf3b6{/,null,AVAILABLE}
+INFO  [2021-09-02 08:08:41,116] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2021-09-02 08:08:41,116] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@7afc82b1{/,null,AVAILABLE}
+INFO  [2021-09-02 08:08:41,122] org.eclipse.jetty.server.AbstractConnector: Started application@1886f375{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2021-09-02 08:08:41,124] org.eclipse.jetty.server.AbstractConnector: Started admin@68ffb374{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2021-09-02 08:08:41,124] org.eclipse.jetty.server.Server: Started @2067ms
+127.0.0.1 - - [02/Sep/2021:08:08:41 +0000] "GET /hello-world HTTP/1.1" 200 37 "-" "document-review-service (test client)" 68
+INFO  [2021-09-02 08:08:41,583] org.eclipse.jetty.server.AbstractConnector: Stopped application@1886f375{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+INFO  [2021-09-02 08:08:41,583] org.eclipse.jetty.server.AbstractConnector: Stopped admin@68ffb374{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+INFO  [2021-09-02 08:08:41,584] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@7afc82b1{/,null,STOPPED}
+INFO  [2021-09-02 08:08:41,589] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@6febf3b6{/,null,STOPPED}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
